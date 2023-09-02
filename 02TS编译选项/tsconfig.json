@@ -1,0 +1,32 @@
+{
+//  编译包含在include的文件
+  "include": [
+    "./src/**/*"
+  ],
+//  不编译包含在内的文件
+//  "exclude": [],
+//  继承配置文件
+//  "extends": "",
+//  指定文件
+//  "files": []
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "amd",
+//    在项目中使用的库
+//    "lib": [],
+//    编译后文件放在哪个目录
+    "outDir": "./dist",
+//    全局作用域的文件合并到一个文件里
+    "outFile":"./dist/app.js",
+//  js文件是否一起编译
+    "allowJs": true,
+//    检查js语法是否规范
+    "checkJs": true,
+//  不生成编译文件 当只为检查语法规范时可使用
+    "noEmit": false,
+//    当报错时则不生成文件
+    "noEmitOnError": true,
+//    是否移除注释
+    "removeComments": true
+  }
+}
