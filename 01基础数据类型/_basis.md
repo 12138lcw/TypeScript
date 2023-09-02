@@ -26,7 +26,7 @@ function xxx(a:number) : **number**(指定返回值是数字类型) {}
 10. array 数组  a:string[] 表示只能存字符串的数组  a:Array<string>
 11. tuple 元组是固定长度的数组 a:[string,string] 
 12. enum 枚举  enum xxx { n1=1,n2=2}  let a:xxx   a=xxx.a1 结果a===1
-
+123
 ### 类型别名
 
 type xxx = xxx 
